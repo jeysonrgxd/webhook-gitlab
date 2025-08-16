@@ -5,9 +5,9 @@ const router = Router();
 
 router.post("/gitlab", handleGitlabEvent);
 
-router.get("/hola", (req,res)=> {
+router.get("/", (req,res)=> {
 
-    res.send("<h1>Hola como estas</h1>")
+    res.send("<h1>Hola esta en el webhook</h1>")
 
 });
 
